@@ -54,7 +54,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/dasil003/csv_builder}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
-  s.requirements = [%q{iconv}, %q{Ruby 1.9.x or FasterCSV}]
+  s.requirements = [%q{Ruby 1.9.x or FasterCSV}]
   s.rubygems_version = %q{1.8.6}
   s.summary = %q{CSV template handler for Rails}
 

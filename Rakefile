@@ -41,7 +41,6 @@ Jeweler::Tasks.new do |gem|
   gem.add_development_dependency 'rack'
   gem.add_development_dependency 'sqlite3'
 
-  gem.requirements << 'iconv'
   gem.requirements << 'Ruby 1.9.x or FasterCSV'
 end
 Jeweler::RubygemsDotOrgTasks.new
