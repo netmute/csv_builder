@@ -1,3 +1,6 @@
+**Important Note** This fork removes the reliance on iconv but makes Ruby 1.9.x a hard requirement since it uses
+String#force_encoding.  This has not been reconciled with the source for Ruby 1.8.x support... yet.
+
 **Important Note** Though I did not write this code, I did convert it to a gem and I'm currently the sole owner on
 rubygems.  With Joel Chippindale's approval I've taken over defacto maintainership of this gem.  My use case is
 primarily under rails 3, and the current version is not backwards compatible, but I will maintain a 2.3.x branch as well
